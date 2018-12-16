@@ -16,13 +16,12 @@ int main() {
 	set<string> paraulesEnComu;
 	set<string> paraulesEnTotal;
 	string paraula;
-	while (fitxer1 >> paraula) {
+	while (getline(fitxer1, paraula)) {
 		paraulesEnTotal.insert(paraula);
 	}
-	while(fitxer2 >> paraula) {
+	while(getline(fitxer2, paraula)) {
 		if (!(paraulesEnTotal).insert(paraula).second) {
 			paraulesEnComu.insert(paraula);
-			cout << paraula << endl;
 		}
 	}
 	cout << "Nombre d'elements en total: " << paraulesEnTotal.size() << endl;

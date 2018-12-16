@@ -13,6 +13,6 @@ extern int numHashes;
 void setT(int t);
 int getT();
 float sim(vector<uint32_t> a, vector<uint32_t> b);
-vector<vector<uint32_t> > createSignature(vector<vector<string> > kshingles, int k, int numShingles);
+vector<vector<uint32_t> > createSignature(vector<vector<string> > kshingles, int merLength);
 
 #endif // MINHASH_H_INCLUDED

@@ -1,5 +1,10 @@
 #include <iostream>
 #include <fstream>
+#include <stdio.h>      /* printf, scanf, puts, NULL */
+#include <stdlib.h>     /* srand, rand */
+#include <stdint.h>
+#include <time.h>
+#include "xxHash/xxhash.h"
 #include <string>
 #include <vector>
 #include <set>
@@ -7,8 +12,8 @@
 using namespace std;
 
 int main(){
-    set<string> shingles;
     int numFitxers;
+    int merLength = 0;
     cout << "Quants documents representats per shingles vols tractar?" << endl;
 	cin >> numFitxers;
     vector<vector<string> > input(numFitxers, vector<string>(1));
@@ -20,8 +25,8 @@ int main(){
 		nomShingle.append(".txt");
         fitxerShingle.open(nomShingle);
         while (getline(fitxerShingle, shingle)) {
+            if(merLength == 0) merLength = shingle.length();
             input[i].push_back(shingle);
-            shingles.insert(shingle);
         }
         fitxerShingle.close();
 	}
@@ -30,14 +35,15 @@ int main(){
     int t;
     cin >> t;
     setT(t);
-    vector<vector<uint32_t> > signatureMatrix = createSignature(input, 4,shingles.size());
 
-    /*for(int i = 0; i < signatureMatrix.size(); ++i){
-        for(int j = 0; j < signatureMatrix[i].size(); ++j){
-            cout << signatureMatrix[i][j] << " ";
-        }
-        cout << endl;
-    }*/
+    vector<vector<uint32_t> > signatureMatrix = createSignature(input, merLength);
+
+    //for(int i = 0; i < signatureMatrix.size(); ++i){
+    //    for(int j = 0; j < signatureMatrix[i].size(); ++j){
+    //        cout << signatureMatrix[i][j] << " ";
+    //    }
+    //    cout << endl;
+    //}
     vector<uint32_t> sig1(t);
     vector<uint32_t> sig2(t);
     for(int j = 1; j < numFitxers; ++j){

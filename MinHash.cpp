@@ -22,8 +22,7 @@ void setT(int t){
 
 //creates the signature matrix of the docs represented as the vector of kShingles
 //the matrix is numDocs * numHashes so each row is a signature
-vector<vector<uint32_t> > createSignature(vector<vector<string> > kShingles, int k, int numShingles){
-    char kmer[k];
+vector<vector<uint32_t> > createSignature(vector<vector<string> > kShingles, int merLength){
     const char *aux;
     uint32_t kmerHash;
     vector<vector<uint32_t> > signatureMatrix(kShingles.size(), vector<uint32_t>(numHashes, UINT_MAX)); //stores the minHash signature of the document, must be initialized at +infinity
@@ -32,7 +31,6 @@ vector<vector<uint32_t> > createSignature(vector<vector<string> > kShingles, int
     for(int i = 0; i < numHashes; ++i){
         seeds[i] = rand();
     }
-    //cout << "numShingles: " << numShingles << endl << endl;
     //for each doc
     for(int i = 0; i < kShingles.size(); ++i){
         //for each hash function
@@ -41,13 +39,10 @@ vector<vector<uint32_t> > createSignature(vector<vector<string> > kShingles, int
             for(int k = 0; k < kShingles[i].size(); ++k){
                 //here we compute the minHash for each Set of kShingles
                 aux = kShingles[i][k].c_str();
-                kmerHash = XXH32(aux,k,seeds[j])%numShingles;
-                //cout << aux << ":" << kmerHash << " ";
+                kmerHash = XXH32(aux, merLength, seeds[j]);
                 if(kmerHash < signatureMatrix[i][j]) signatureMatrix[i][j] = kmerHash;
             }
-            //cout << endl;
         }
-        //cout << endl << endl;
     }
     return signatureMatrix;
 }
