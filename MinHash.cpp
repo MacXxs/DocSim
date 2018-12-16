@@ -54,6 +54,6 @@ float sim(vector<uint32_t> a, vector<uint32_t> b){
     for(int i = 0; i < numHashes; ++i){
         if(a[i] == b[i]) ++sim;
     }
-    cout << "SIM: " << sim << endl;
+    //cout << "SIM: " << sim << endl;
     return sim/numHashes;
 }
