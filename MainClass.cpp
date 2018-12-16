@@ -3,13 +3,14 @@
 #include <stdio.h>      /* printf, scanf, puts, NULL */
 #include <stdlib.h>     /* srand, rand */
 #include <stdint.h>
-#include <time.h>
+#include <chrono>
 #include "xxHash/xxhash.h"
 #include <string>
 #include <vector>
 #include <set>
 #include "MinHash.h"
 using namespace std;
+using namespace std::chrono;
 
 int main(){
     int numFitxers;
@@ -20,7 +21,7 @@ int main(){
 	string nomShingle, shingle;
 	ifstream fitxerShingle;
 	for(int i = 0; i < numFitxers; ++i){
-        nomShingle = "inputs/AQC/kShingles";
+        nomShingle = "inputs/eslovenia/kShingles";
 		nomShingle.append(to_string(i+1));
 		nomShingle.append(".txt");
         fitxerShingle.open(nomShingle);
@@ -36,8 +37,15 @@ int main(){
     cin >> t;
     setT(t);
 
+    high_resolution_clock::time_point t1 = high_resolution_clock::now();
+
     vector<vector<uint32_t> > signatureMatrix = createSignature(input, merLength);
 
+    high_resolution_clock::time_point t2 = high_resolution_clock::now();
+
+    auto duration = duration_cast<microseconds>( t2 - t1 ).count();
+
+    cout << "MinHash computation: " << duration/1000 << endl;
     //for(int i = 0; i < signatureMatrix.size(); ++i){
     //    for(int j = 0; j < signatureMatrix[i].size(); ++j){
     //        cout << signatureMatrix[i][j] << " ";
@@ -46,14 +54,17 @@ int main(){
     //}
     vector<uint32_t> sig1(t);
     vector<uint32_t> sig2(t);
+    ofstream fitxerSortida;
+    fitxerSortida.open("SimFile.csv");
     for(int j = 1; j < numFitxers; ++j){
         for(int i= 0; i < t; ++i){
             sig1[i] = signatureMatrix[0][i];
             sig2[i] = signatureMatrix[j][i];
         }
         float simf = sim(sig1, sig2);
-        cout << "Sim entre 1 i " << j << " : " << simf << endl;
+        fitxerSortida << "Sim entre 1 i " << j << " :, " << simf << endl;
     }
+    fitxerSortida.close();
     //const char * aux = input[0][0].c_str();
     //cout << aux << endl;
 }
