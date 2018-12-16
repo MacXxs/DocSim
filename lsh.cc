@@ -3,41 +3,25 @@
 #include <vector>
 using namespace std;
 
-void in_minhashes (map<string, vector<uint32_t>>& minhashes){
-
-	int n, s;
-	cout << "introdueix el nombre de minhashes" << endl;
-	cin >> n;
-	cout << "introdueix el nombre de firmes per minhash" << endl;
-	cin >> s;
-
+void in_minhashes (vector<vector<uint32_t>>& minhashes){
 	uint32_t sig;
 	string text;
-	for (int i  = 0; i < n; ++i){
-
-		vector<uint32_t> signatures(s);
-		cout << "introdueix el identificador del minhash" << endl;
-		cin >> text;
-		cout << "introdueix les firmes del text " << text << endl;
-		for (int j = 0; j < s; ++j){
-
+	for (int i  = 0; i < minhashes[0].size(); ++i){
+		cout << "introdueix les firmes del text " << i << endl;
+		for (int j = 0; j < minhashes.size(); ++j){
 			cin >> sig;
-			signatures[j] = sig;
+			minhashes[i][j] = sig;
 		}
-		minhashes.insert(pair<string,vector<uint32_t>>(text,signatures));
 	}
 }
 
-void out_minhashes (map<string, vector<uint32_t	>>& minhashes){
-	for (map<string, vector<uint32_t>>::iterator it = minhashes.begin(); it != minhashes.end(); ++it){
-
-		cout << it->first << "->[";
-		for (int i = 0; i < it->second.size(); ++i){
-
-			if (i == 0) cout << it->second[i];
-			else cout << ',' << it->second[i];
+void out_minhashes (vector<vector<uint32_t	>>& minhashes){
+	for (int i = 0; i < minhashes[0].size(); ++i){
+		cout << i << "->[";
+		for (int j = 0; j < minhashes.size(); ++j){
+			if (j == 0) cout << minhashes[i][j];
+			else cout << ',' << minhashes[i][j];
 		}
-
 		cout << ']' << endl;
 	}
 }
@@ -60,11 +44,16 @@ class Hash {
 int main() {
 
 	Hash hash;
-	map<string, vector<uint32_t>> minhashes;
+	int n, s;
+	cout << "introdueix el nombre de minhashes" << endl;
+	cin >> n;
+	cout << "introdueix el nombre de firmes per minhash" << endl;
+	cin >> s;
+	vector<vector<uint32_t>> minhashes(s,vector<uint32_t> (n));
 	in_minhashes(minhashes);
 	out_minhashes(minhashes);
 
-	int band, rows;
+	/*int band, rows;
 	cout << "introdueix el nombre de bandes" << endl;
 	cin >> band;
 	cout << "introdeux el nombre de files per banda" << endl;
@@ -72,7 +61,7 @@ int main() {
 
 	map<string,vector<uint32_t> candidates;
 
-	/*for (int i = 0; i < bandes; ++i){
+	for (int i = 0; i < bandes; ++i){
 		map<uint32_t,vector<uint32_t>> bucket;
 		for (auto it = minhashes.begin(); it != minhashes.end(); ++it){
 			vector<uint32_t> signatures(rows);
