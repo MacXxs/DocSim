@@ -10,20 +10,26 @@ void in_minhashes (vector<vector<uint32_t>>& minhashes){
 		cout << "introdueix les firmes del text " << i << endl;
 		for (int j = 0; j < minhashes.size(); ++j){
 			cin >> sig;
-			minhashes[i][j] = sig;
+			minhashes[j][i] = sig;
 		}
 	}
 }
 
-void out_minhashes (vector<vector<uint32_t	>>& minhashes){
+void out_minhashes (const vector<vector<uint32_t>>& minhashes){
 	for (int i = 0; i < minhashes[0].size(); ++i){
 		cout << i << "->[";
 		for (int j = 0; j < minhashes.size(); ++j){
-			if (j == 0) cout << minhashes[i][j];
-			else cout << ',' << minhashes[i][j];
+			if (j == 0) cout << minhashes[j][i];
+			else cout << ',' << minhashes[j][i];
 		}
 		cout << ']' << endl;
 	}
+}
+
+void out_vec(const vector<uint32_t> &vec){
+	for (int i = 0; i < vec.size(); ++i)
+		cout << vec[i] << ' ';
+	cout << endl;
 }
 
 
@@ -53,22 +59,33 @@ int main() {
 	in_minhashes(minhashes);
 	out_minhashes(minhashes);
 
-	/*int band, rows;
+	int band, rows;
 	cout << "introdueix el nombre de bandes" << endl;
 	cin >> band;
 	cout << "introdeux el nombre de files per banda" << endl;
 	cin >> rows;
 
-	map<string,vector<uint32_t> candidates;
+	vector<vector<uint32_t>> candidates(band,vector<uint32_t>(n));
 
-	for (int i = 0; i < bandes; ++i){
-		map<uint32_t,vector<uint32_t>> bucket;
-		for (auto it = minhashes.begin(); it != minhashes.end(); ++it){
+	for (int b = 0; b < band; ++b){
+
+		for (int i = 0; i < n; ++i){
 			vector<uint32_t> signatures(rows);
-			for (int j = i*rows; j < i*rows + rows; ++j){
+			int r = 0;
+			for (int j = b*rows; j < b*rows + rows; ++j){
+				signatures[r] = minhashes[j][i];
+				++r;
+			} 
 
-			}
-
+			candidates[b][i] = hash(signatures);
 		}
-	}*/
+	}
+
+	for (int x = 0; x < n; ++x){
+		cout << "doc" << x << " -> ";
+		for (int y = 0; y < band; ++y){
+			cout << candidates[y][x] << ' ';
+		}
+		cout << endl;
+	}
 }
