@@ -76,11 +76,13 @@ int main() {
 				signatures[r] = minhashes[j][i];
 				++r;
 			} 
-
 			candidates[b][i] = hash(signatures);
 		}
 	}
 
+	//això ens retorna una matriu a on per cada doc té tants elements
+	//com bandes, on cada element és el vector de rows firmes al qual
+	//se li ha aplicat una funció de hash per obtenir un identificador únic
 	for (int x = 0; x < n; ++x){
 		cout << "doc" << x << " -> ";
 		for (int y = 0; y < band; ++y){
