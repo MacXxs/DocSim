@@ -1,0 +1,758 @@
+a c
+ co
+com
+om 
+m e
+ eq
+equ
+qui
+uip
+ips
+ps 
+s g
+ gu
+gua
+uan
+any
+nya
+yad
+ado
+dor
+or 
+r e
+ eq
+equ
+qui
+uip
+ips
+ps 
+s c
+ cl
+cla
+las
+ass
+ssi
+sif
+ifi
+fic
+ica
+cac
+aci
+ció
+ió 
+ó e
+ el
+els
+ls 
+s a
+ a 
+a O
+ Ox
+Oxf
+xfo
+for
+ord
+rd,
+d, 
+, G
+ Gr
+Gri
+rim
+ims
+ms 
+s p
+ pa
+par
+art
+rti
+tic
+ici
+cip
+ipa
+par
+ar 
+r l
+ l’
+l’e
+’es
+esp
+spo
+por
+ort
+rt 
+t B
+ Bo
+Bog
+ogg
+gga
+gar
+art
+rts
+ts,
+s, 
+, (
+ (E
+(EQ
+EQC
+QC)
+C) 
+) a
+ am
+amb
+mb 
+b e
+ en
+en 
+n p
+ po
+pod
+ode
+der
+er 
+r U
+ Un
+Uni
+nit
+it.
+t. 
+. v
+ va
+va 
+a e
+ es
+es 
+s Z
+ Za
+Zar
+ara
+rag
+ago
+goz
+oza
+za 
+a d
+ de
+dec
+eci
+cid
+idi
+dir
+ir 
+r d
+ de
+de 
+e c
+ co
+con
+ons
+nso
+sol
+oli
+lid
+ida
+dat
+ats
+ts 
+s e
+ en
+en 
+n e
+ es
+es 
+s d
+ de
+de 
+e e
+ eu
+eur
+uro
+rop
+ope
+peu
+eus
+us 
+s i
+ i 
+i Q
+ Qu
+Qui
+uid
+idd
+ddi
+dit
+itc
+tch
+ch 
+h o
+ op
+opt
+pta
+tav
+ave
+ven
+en 
+n o
+ or
+org
+rga
+gan
+ani
+nit
+itz
+tza
+zar
+ar 
+r s
+ se
+ser
+er 
+r l
+ l’
+l’A
+’As
+Ass
+sso
+soc
+oci
+cia
+iac
+aci
+ció
+ió 
+ó U
+ Un
+Un 
+n B
+ Bi
+Biz
+izk
+zka
+kai
+aia
+ia 
+a c
+ cl
+cla
+las
+ass
+ssi
+sif
+ifi
+fic
+ica
+cav
+ava
+va 
+a p
+ pr
+pri
+rim
+ime
+mer
+era
+ra 
+a v
+ va
+va 
+a e
+ el
+el 
+l N
+ Ni
+Nig
+igh
+ght
+htm
+tma
+mar
+are
+re 
+e a
+ aq
+aqu
+que
+ues
+est
+sta
+ta 
+a d
+ de
+de 
+e C
+ Co
+Cop
+opa
+pa 
+a R
+ Re
+Reg
+egn
+gne
+ne 
+e l
+ la
+la 
+a l
+ l’
+l’a
+’an
+any
+ny 
+y c
+ ca
+cam
+amp
+mpi
+pió
+ió 
+ó l
+ la
+la 
+a j
+ ja
+ja 
+a –
+ – 
+– a
+ al
+al 
+l (
+ (N
+(NG
+NGB
+GB)
+B) 
+) E
+ Ea
+Eag
+agl
+gle
+les
+es,
+s, 
+, e
+ ex
+exi
+xis
+ist
+sti
+tie
+ien
+en 
+n c
+ co
+cop
+op 
+p n
+ no
+no 
+o 3
+ 3 
+3 L
+ Ll
+Lla
+lav
+avo
+vor
+ors
+rs 
+s f
+ fu
+fun
+und
+nda
+dad
+ada
+da,
+a, 
+, a
+ am
+amb
+mb 
+b B
+ Ba
+Bar
+arc
+rce
+cel
+elo
+lon
+ona
+na 
+a a
+ a 
+a f
+ fu
+fun
+und
+nda
+dar
+ar 
+r a
+ au
+aut
+uto
+tor
+ori
+rit
+ita
+tat
+at 
+t c
+ co
+con
+onv
+nvi
+vid
+ida
+dat
+ats
+ts 
+s a
+ a 
+a i
+ i 
+i e
+ es
+es 
+s I
+ Im
+Imp
+mpe
+per
+eri
+riu
+ius
+us 
+s Q
+ Qu
+Qui
+uid
+idd
+ddi
+dit
+itc
+tch
+ch 
+h d
+ de
+de 
+e C
+ Co
+Cop
+opa
+pa 
+a t
+ to
+tor
+orn
+rne
+nei
+eig
+ig 
+g A
+ A 
+A a
+ a 
+a q
+ qu
+qua
+ual
+al 
+l C
+ Ca
+Cat
+ata
+tal
+alu
+lun
+uny
+nya
+ya 
+a i
+ i 
+i p
+ pr
+pro
+roc
+ocl
+cla
+lam
+ama
+mar
+ar 
+r v
+ va
+vam
+am 
+m q
+ qu
+qui
+uid
+idd
+ddi
+dit
+itc
+tch
+ch 
+h d
+ d’
+d’E
+’Eu
+Eur
+uro
+rop
+opa
+pa 
+a B
+ Ba
+Bar
+arc
+rce
+cel
+elo
+lon
+ona
+na,
+a, 
+, 2
+ 20
+201
+015
+15 
+5 t
+ to
+tor
+orn
+rne
+nej
+ejo
+jos
+os 
+s v
+ va
+va 
+a e
+ el
+el 
+l p
+ pe
+per
+er 
+r p
+ pr
+pri
+rin
+inc
+nci
+cip
+ipi
+pis
+is 
+s C
+ Ca
+Cat
+ata
+tal
+alu
+lun
+uny
+nya
+ya:
+a: 
+: E
+ Ea
+Eag
+agl
+gle
+les
+es 
+s c
+ co
+cop
+opa
+pa.
+a. 
+. l
+ l’
+l’e
+’eq
+equ
+qui
+uip
+ip 
+p C
+ Ca
+Cat
+ata
+tal
+alu
+lun
+uny
+nya
+ya 
+a I
+ I 
+I E
+ En
+En 
+n q
+ qu
+qua
+ual
+als
+ls 
+s Q
+ Qu
+Qui
+uid
+idd
+ddi
+dit
+itc
+tch
+ch 
+h W
+ Wy
+Wyv
+yve
+ver
+ern
+rns
+ns.
+s. 
+. p
+ pa
+par
+art
+rti
+tit
+its
+ts 
+s v
+ va
+va 
+a e
+ es
+es 
+s d
+ d’
+d’a
+’aq
+aqu
+que
+ues
+est
+sta
+ta 
+a B
+ Ba
+Bar
+arc
+rce
+cel
+elo
+lon
+ona
+na 
+a p
+ pe
+per
+er 
+r a
+ am
+ami
+mis
+ist
+sto
+tos
+oso
+sos
+os.
+s. 
+. a
+ a 
+a T
+ To
+Tou
+oul
+ulo
+lou
+ous
+use
+se 
+e o
+ or
+org
+rga
+gan
+ani
+nit
+itz
+tza
+zar
+ar 
+r p
+ pa
+par
+art
+rti
+tic
+ici
+cip
+ipa
+pav
+ave
+ven
+en 
+n o
+ oc
+oca
+cas
+asi
+sió
+ió 
+ó p
+ pe
+per
+erò
+rò 
+ò d
+ de
+de 
+e l
+ la
+la 
+a n
+ na
+nac
+aci
+cio
+ion
+ona
+nal
+al 
+l q
+ qu
+qua
+uan
+an 
+n c
+ co
+com
+omp
+mpt
+pta
+tar
+ar 
+r t
+ te
+ter
+err
+rri
+rit
+ito
+tor
+ori
+ri.
+i. 

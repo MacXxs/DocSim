@@ -1,0 +1,988 @@
+acl
+cla
+lar
+ari
+rid
+ida
+da 
+a e
+ en
+enm
+nmi
+mig
+ig 
+g m
+ ma
+mai
+ai 
+i (
+ (s
+(si
+si,
+i, 
+, e
+ el
+el 
+l d
+ de
+de 
+e d
+ de
+def
+efe
+fen
+ens
+nsa
+sar
+ar-
+r-l
+-la
+la 
+a d
+ de
+del
+el 
+l I
+ Iu
+Iug
+ugo
+gos
+osl
+sla
+lav
+avi
+via
+ia 
+a t
+ to
+tot
+ot,
+t, 
+, i
+ i 
+i e
+ es
+es 
+s o
+ ob
+obr
+bri
+rir
+ir 
+r q
+ qu
+que
+ue 
+e g
+ gr
+gra
+ran
+an 
+n v
+ va
+van
+an 
+n v
+ va
+va 
+a s
+ se
+sep
+epa
+par
+ara
+ras
+ass
+ssi
+sin
+in 
+n t
+ tr
+tra
+ran
+ans
+nsp
+spo
+por
+ort
+rti
+tis
+ist
+ste
+tes
+es 
+s v
+ va
+va 
+a q
+ qu
+que
+ue 
+e f
+ fe
+fen
+ent
+nt 
+t d
+ d'
+d'o
+'od
+odi
+di 
+i C
+ Co
+Con
+ons
+nst
+sti
+tit
+itu
+tuc
+uci
+cio
+ion
+ona
+nal
+alm
+lme
+men
+ent
+nt,
+t, 
+, c
+ ca
+cap
+apt
+ptu
+tur
+ura
+rat
+ats
+ts 
+s s
+ se
+ser
+er 
+r l
+ la
+la 
+a r
+ re
+ret
+ete
+ten
+eni
+nir
+ir-
+r-l
+-la
+la 
+a a
+ ai
+aix
+ixo
+xo,
+o, 
+, d
+ d'
+d'a
+'at
+ata
+tac
+aca
+car
+ar 
+r s
+ su
+sup
+upo
+por
+ort
+rt 
+t a
+ am
+amb
+mb 
+b d
+ di
+div
+ivu
+vui
+uit
+it 
+t l
+ la
+la 
+a i
+ in
+int
+nte
+ten
+ent
+nta
+tan
+ant
+nt 
+t P
+ Pe
+Per
+ero
+ro 
+o d
+ d'
+d'e
+'es
+est
+str
+tra
+ran
+ang
+nge
+ger
+ers
+rs,
+s, 
+, c
+ co
+com
+om 
+m i
+ i 
+i d
+ de
+de 
+e f
+ fo
+for
+orç
+rça
+ça 
+a i
+ iu
+iug
+ugo
+gos
+osl
+sla
+lau
+aus
+us 
+s a
+ ai
+aix
+ixo
+xo 
+o e
+ er
+ere
+ren
+en 
+n n
+ no
+no 
+o p
+ pr
+pre
+res
+esi
+sid
+ide
+den
+enc
+nci
+cia
+ia 
+a u
+ un
+una
+na 
+a m
+ mo
+mol
+olt
+lt 
+t g
+ gu
+gue
+uer
+err
+rra
+ra 
+a d
+ di
+dit
+it 
+t a
+ a 
+a c
+ ca
+cam
+amp
+mpa
+pan
+any
+nya
+ya 
+a u
+ un
+una
+na 
+a h
+ he
+he 
+e s
+ so
+sol
+ol 
+l d
+ de
+del
+el 
+l d
+ de
+de 
+e v
+ va
+va 
+a T
+ Ta
+Tam
+amb
+mbe
+be 
+e s
+ si
+sin
+ino
+no 
+o L
+ La
+La 
+a i
+ im
+imp
+mpo
+pos
+osa
+sad
+ada
+da;
+a; 
+; l
+ la
+la 
+a i
+ i 
+i E
+ Ef
+Efe
+fec
+ect
+cti
+tiv
+iva
+vam
+ame
+men
+ent
+nt,
+t, 
+, s
+ se
+sei
+eix
+ixa
+xan
+ant
+nta
+ta-
+a-d
+-du
+due
+ues
+es 
+s q
+ qu
+que
+ue 
+e q
+ qu
+que
+ue 
+e l
+ la
+la 
+a S
+ Se
+Ser
+erb
+rbi
+bia
+ia,
+a, 
+, c
+ co
+con
+ons
+nsi
+sid
+ide
+der
+era
+rar
+ar-
+r-s
+-se
+se 
+e v
+ vi
+vio
+iol
+ole
+len
+enc
+nci
+cia
+ia,
+a, 
+, s
+ se
+ser
+er 
+r s
+ se
+sei
+eix
+ixa
+xan
+ant
+nta
+ta-
+a-d
+-do
+dos
+os 
+s l
+ li
+li 
+i i
+ i 
+i l
+ l'
+l'e
+'ex
+exe
+xer
+erc
+rci
+cit
+it 
+t l
+ la
+la 
+a s
+ si
+sis
+is 
+s s
+ so
+sol
+old
+lda
+dat
+ats
+ts 
+s a
+ at
+ata
+tac
+aca
+car
+ar 
+r f
+ fa
+fa 
+a m
+ ma
+man
+ani
+nip
+ipu
+pul
+ula
+lar
+ar 
+r d
+ de
+de 
+e a
+ a 
+a i
+ i 
+i d
+ d'
+d'i
+'in
+ind
+nde
+dep
+epe
+pen
+end
+nde
+den
+enc
+nci
+cia
+ia 
+a d
+ de
+del
+el 
+l q
+ qu
+que
+ue 
+e E
+ Es
+Esl
+slo
+lov
+ove
+ven
+eni
+nia
+ia.
+a. 
+. f
+ fo
+foc
+oc 
+c e
+ er
+ere
+ren
+en 
+n 9
+ 93
+93%
+3% 
+% d
+ de
+des
+ese
+sen
+ena
+na.
+a. 
+. g
+ gu
+gua
+uan
+any
+nya
+yat
+at 
+t p
+ pa
+pas
+as 
+s p
+ pe
+per
+erd
+rdr
+dre
+re 
+e i
+ in
+int
+ntr
+tra
+ran
+ans
+nsi
+sig
+ige
+gen
+ent
+nt 
+t a
+ a 
+a '
+ 'f
+'fe
+fed
+ede
+der
+era
+ral
+al'
+l')
+') 
+) q
+ qu
+qua
+uar
+ara
+ran
+ant
+nta
+ta-
+a-q
+-qu
+qua
+uat
+atr
+tre
+re 
+e h
+ ha
+hav
+avi
+via
+ia 
+a i
+ in
+ind
+nde
+dep
+epe
+pen
+end
+nde
+den
+enc
+nci
+cia
+ia 
+a a
+ at
+ata
+tac
+aca
+car
+ar-
+r-l
+-la
+la.
+a. 
+. u
+ un
+una
+na 
+a l
+ la
+la 
+a E
+ Es
+Esl
+slo
+lov
+ove
+ven
+eni
+nia
+ia 
+a p
+ po
+por
+ort
+rta
+ta 
+a f
+ fe
+fed
+ede
+der
+era
+ral
+al 
+l p
+ pe
+per
+eri
+rio
+iod
+odi
+dis
+ist
+ste
+tes
+es 
+s h
+ hi
+hi 
+i p
+ pe
+per
+ero
+ro 
+o s
+ se
+seu
+eua
+ua 
+a D
+ De
+Des
+esp
+spr
+pre
+res
+es 
+s n
+ no
+no 
+o e
+ es
+esl
+slo
+lov
+ove
+ven
+ens
+ns.
+s. 
+. l
+ la
+la 
+a s
+ se
+se 
+e l
+ la
+la 
+a e
+ en
+env
+nva
+vai
+air
+ir 
+r d
+ de
+del
+el 
+l m
+ mo
+mor
+ort
+rts
+ts,
+s, 
+, m
+ mo
+mor
+ort
+rt 
+t q
+ qu
+qua
+uan
+ant
+nti
+tit
+ita
+tat
+at 
+t a
+ ac
+aca
+cab
+aba
+bat
+at 
+t V
+ Va
+Van
+ang
+ngu
+gua
+uar
+ard
+rdi
+dia
+ia,
+a, 
+, l
+ la
+la 
+a d
+ de
+de 
+e p
+ pl
+plu
+lur
+ura
+ral
+ali
+lit
+ita
+tat
+at.
+t. 
+. l
+ la
+la 
+a c
+ co
+cos
+ost
+sta
+tar
+ar 
+r g
+ gr
+gre
+reu
+eu.
+u. 
+. E
+ Es
+Esl
+slo
+lov
+ove
+ven
+eni
+nia
+ia 
+a 8
+ 88
+88%
+8%,
+%, 
+, p
+ pa
+pai
+ais
+iso
+sos
+os 
+s u
+ un
+una
+na 
+a v
+ vo
+vol
+oli
+lia
+ia 
+a h
+ ho
+hor
+orr
+rri
+rib
+ibl
+ble
+le 
+e u
+ un
+un 
+n p
+ pe
+per
+erd
+rde
+ded
+edo
+dor
+ora
+ra 
+a v
+ va
+va 
+a v
+ vi
+vid
+ida
+da 
+a r
+ re
+ref
+efe
+fer
+ere
+ren
+end
+ndu
+dum
+um 
+m v
+ va
+va 
+a d
+ d'
+d'E
+'Es
+Esl
+slo
+lov
+ove
+ven
+eni
+nia
+ia 
+a i
+ i 
+i a
+ a 
+a D
+ De
+Del
+els
+ls 
+s v
+ va
+van
+an 
+n p
+ pa
+par
+art
+rti
+tic
+ici
+cip
+ipa
+pac
+aci
+cio
+io 
+o v
+ va
+va 
+a d
+ d'
+d'h
+'ha
+hav
+ave
+ver
+er 
+r l
+ la
+la 
+a p
+ pe
+per
+ers
+rso
+son
+one
+nes
+es.
+s. 
+. o
+ or
+ord
+rde
+den
+ena
+nar
+ar 
+r h

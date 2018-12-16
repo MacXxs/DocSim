@@ -21,7 +21,7 @@ int main(){
 	string nomShingle, shingle;
 	ifstream fitxerShingle;
 	for(int i = 0; i < numFitxers; ++i){
-        nomShingle = "inputs/eslovenia/kShingles";
+        nomShingle = "inputs/15mers/concerning_hobbits/kShingles";
 		nomShingle.append(to_string(i+1));
 		nomShingle.append(".txt");
         fitxerShingle.open(nomShingle);
@@ -52,6 +52,7 @@ int main(){
     //    }
     //    cout << endl;
     //}
+    high_resolution_clock::time_point t3 = high_resolution_clock::now();
     vector<uint32_t> sig1(t);
     vector<uint32_t> sig2(t);
     ofstream fitxerSortida;
@@ -62,9 +63,10 @@ int main(){
             sig2[i] = signatureMatrix[j][i];
         }
         float simf = sim(sig1, sig2);
-        fitxerSortida << "Sim entre 1 i " << j << " :, " << simf << endl;
+        fitxerSortida << simf << endl;
     }
     fitxerSortida.close();
+
     //const char * aux = input[0][0].c_str();
     //cout << aux << endl;
 }
