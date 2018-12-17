@@ -15,13 +15,17 @@ using namespace std::chrono;
 int main(){
     int numFitxers;
     int merLength = 0;
+    cout << "Quin joc de proves vols tractar? (en forma inputs/<k>mers/<nom_joc_de_prova>)" << endl;
+    string path;
+    cin >> path;
     cout << "Quants documents representats per shingles vols tractar?" << endl;
 	cin >> numFitxers;
     vector<vector<string> > input(numFitxers, vector<string>(1));
 	string nomShingle, shingle;
 	ifstream fitxerShingle;
 	for(int i = 0; i < numFitxers; ++i){
-        nomShingle = "inputs/15mers/concerning_hobbits/kShingles";
+        nomShingle = path;
+        nomShingle.append("/kShingles");
 		nomShingle.append(to_string(i+1));
 		nomShingle.append(".txt");
         fitxerShingle.open(nomShingle);
@@ -35,24 +39,18 @@ int main(){
     cout << "introdueix el nombre de funcions de hash a utilitzar" << endl;
     int t;
     cin >> t;
-    setT(t);
 
-    high_resolution_clock::time_point t1 = high_resolution_clock::now();
+    //high_resolution_clock::time_point t1 = high_resolution_clock::now();
 
-    vector<vector<uint32_t> > signatureMatrix = createSignature(input, merLength);
+    vector<vector<uint32_t> > signatureMatrix = createSignature(input, merLength, t);
 
-    high_resolution_clock::time_point t2 = high_resolution_clock::now();
+    //high_resolution_clock::time_point t2 = high_resolution_clock::now();
 
-    auto duration = duration_cast<microseconds>( t2 - t1 ).count();
+    //auto duration = duration_cast<microseconds>( t2 - t1 ).count();
 
-    cout << "MinHash computation: " << duration/1000 << endl;
-    //for(int i = 0; i < signatureMatrix.size(); ++i){
-    //    for(int j = 0; j < signatureMatrix[i].size(); ++j){
-    //        cout << signatureMatrix[i][j] << " ";
-    //    }
-    //    cout << endl;
-    //}
-    high_resolution_clock::time_point t3 = high_resolution_clock::now();
+    //cout << "MinHash computation: " << duration/1000 << endl;
+
+
     vector<uint32_t> sig1(t);
     vector<uint32_t> sig2(t);
     ofstream fitxerSortida;
@@ -62,11 +60,10 @@ int main(){
             sig1[i] = signatureMatrix[0][i];
             sig2[i] = signatureMatrix[j][i];
         }
-        float simf = sim(sig1, sig2);
+        float simf = sim(sig1, sig2,t);
         fitxerSortida << simf << endl;
     }
     fitxerSortida.close();
 
-    //const char * aux = input[0][0].c_str();
-    //cout << aux << endl;
+
 }

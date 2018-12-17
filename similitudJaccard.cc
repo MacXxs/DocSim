@@ -6,13 +6,15 @@
 using namespace std;
 
 int main() {
+    string directory = "inputs/15mers/AQC/";
 	cout << "Indica el nom dels fitxers que vols comparar" << endl;
 	string nomFitxer1, nomFitxer2;
 	cin >> nomFitxer1 >> nomFitxer2;
 	ifstream fitxer1;
-	fitxer1.open(nomFitxer1);
+	fitxer1.open(directory.append(nomFitxer1));
 	ifstream fitxer2;
-	fitxer2.open(nomFitxer2);
+	directory = "inputs/15mers/AQC/";
+	fitxer2.open(directory.append(nomFitxer2));
 	set<string> paraulesEnComu;
 	set<string> paraulesEnTotal;
 	string paraula;

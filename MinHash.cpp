@@ -10,19 +10,9 @@
 #include "MinHash.h"
 using namespace std;
 
-int numHashes;
-
-int getT(){
-    return numHashes;
-}
-
-void setT(int t){
-    numHashes = t;
-}
-
 //creates the signature matrix of the docs represented as the vector of kShingles
 //the matrix is numDocs * numHashes so each row is a signature
-vector<vector<uint32_t> > createSignature(vector<vector<string> > kShingles, int merLength){
+vector<vector<uint32_t> > createSignature(vector<vector<string> > kShingles, int merLength, int numHashes){
     const char *aux;
     uint32_t kmerHash;
     vector<vector<uint32_t> > signatureMatrix(kShingles.size(), vector<uint32_t>(numHashes, UINT_MAX)); //stores the minHash signature of the document, must be initialized at +infinity
@@ -49,7 +39,7 @@ vector<vector<uint32_t> > createSignature(vector<vector<string> > kShingles, int
 
 //calculates the approximation of Jaccard similarity using minHash signatures
 //currently it gets two separate signatures we should use a signatureMatrix?
-float sim(vector<uint32_t> a, vector<uint32_t> b){
+float sim(vector<uint32_t> a, vector<uint32_t> b, int numHashes){
     float sim = 0;
     for(int i = 0; i < numHashes; ++i){
         if(a[i] == b[i]) ++sim;
